@@ -1,0 +1,26 @@
+.header {
+    background-color: #D6B0D7;
+    width: 1440;
+    height: 100;
+}
+.menu-header {
+    left: 487px;
+    top: 38px;
+    width: 466px;
+    height: 23px;
+}
+.top-nav_menu {
+    font-family: 'Montserrat';
+    text-align: center;
+    size: 20px;
+    display: inline-block;
+    position: absolute;
+    
+}
+.ul-header{
+    padding:0;
+    left: 487px;
+    top:38px;
+    width: 466px;
+    height: 23px;
+}
