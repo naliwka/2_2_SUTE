@@ -7,26 +7,120 @@
         <link rel="stylesheet" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     </head>
-    <body>
+    <body class="body">
         <header class="header">
-            <a class="header-logo" href="/">
-                <img src="/images/header-logo.jpg">
+            <a class="logo-header" href="/">
+                <img src="images/logo-header.png">
             </a>
             <div class="menu-header">
-                <nav>
-                    <ul class="ul-header">
-                        <li class="top-nav_menu"><a  href="/catalog/">Каталог</a></li>
-                        <li class="top-nav_menu"><a href="/about/">Про нас</a></li>
-                        <li class="top-nav_menu"><a href="/delivery/">Доставка</a></li>
-                        <li class="top-nav_menu"><a href="/contacts/">Контакти</a></li>
-                    </ul>
-                </nav>
+                <div>
+                    <p class="catalog"><a href="/catalog/">Каталог</a></p>
+                    <p class="about"><a href="/about/">Про нас</a></p>
+                    <p class="delivery"><a href="/delivery/">Доставка</a></p>
+                    <p class="contacts"><a href="/contacts/">Контакти</a></p>
+                </div>
+                <div class="buttons-header">
+                    <button class="cart-button">
+                        <p>Кошик</p>
+                    </button>
+                    <button class="search-button">
+                        <p>Пошук</p>
+                    </button>
+                </div>
             </div>           
         </header>
-        <main>
-             <div>
-                
-             </div>   
+        <main class="main">
+             <div class="about-us">
+                <img class="about-us_img" src="images/work_process.jpg" alt="Our work process.">
+                <div class="about-us_heading">
+                    <p class="about-us_heading-text">Про нас</p>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In convallis venenatis lacinia. 
+                    Morbi nisl orci, porta quis malesuada ut, euismod ut sapien. 
+                    Integer ac efficitur lacus. Aenean facilisis justo finibus est semper auctor. 
+                    Pellentesque tempor vulputate ultricies. 
+                    Curabitur diam tortor, elementum quis tincidunt id, efficitur sit amet dolor. 
+                    Mauris tempor.
+                </p>
+                <div class="social-media">
+                    <button class="instagram" href="https://www.instagram.com/">
+                        <img class="instagram" src="images/instagram.png" alt="Instagram icon">
+                    </button>
+                    <button class="facebook" href="https://www.facebook.com/">
+                        <img class="facebook" src="images/facebook.png" alt="Facebook icon">
+                    </button>
+                    <button class="tiktok" href="https://www.facebook.com/">
+                        <img class="tiktok" src="images/tiktok.png" alt="Tiktok icon">
+                    </button>
+                </div>
+             </div>
+
+             <div class="main-block">
+                <p class="main-heading">Подаруй щастя коханій людині!</p>
+                <img id="main-photo" src="images/flowers.jpg" alt="Flowers">
+             </div>
+
+             
+             <div class="novelty">
+                <p class="novelty-heading">Новинки</p>
+                    <div id="bouqette-series1">
+                        <div class="bouqette-frame" id="bouqette1-frame">
+                            <img class="bouqette" src="images/hort_rose_eust.jpg"> 
+                            <p class="bouqette-name">Гортензія + Троянди + Еустома</p>
+                            <p class="price">1500грн</p>
+                            <button class="to-buy_button"></button>
+                        </div>
+                        <div class="bouqette-frame" id="bouqette2-frame">
+                            <img class="bouqette" src="images/hort_rose_eust.jpg"> 
+                            <p class="bouqette-name">Альстромерія + Хризантема</p>
+                            <p class="price">1900грн</p>
+                            <button class="to-buy_button"></button>
+                        </div>
+                        <div class="bouqette-frame" id="bouqette3-frame">
+                            <img class="bouqette" src="images/hort_rose_eust.jpg"> 
+                            <p class="bouqette-name">Альстромерія + Хризантема</p>
+                            <p class="price">1900грн</p>
+                            <button class="to-buy_button"></button>
+                        </div>
+                    </div>
+                    <div id="bouqette-series2">
+                        <div class="bouqette-frame" id="bouqette4-frame">
+                            <img class="bouqette" src="images/hort_rose_eust.jpg"> 
+                            <p class="bouqette-name">Гортензія + Троянди + Еустома</p>
+                            <p class="price">1500грн</p>
+                            <button class="to-buy_button"></button>
+                        </div>
+                        <div class="bouqette-frame" id="bouqette5-frame">
+                            <img class="bouqette" src="images/hort_rose_eust.jpg"> 
+                            <p class="bouqette-name">Альстромерія + Хризантема</p>
+                            <p class="price">1900грн</p>
+                            <button class="to-buy_button"></button>
+                        </div>
+                        <div class="bouqette-frame" id="bouqette6-frame">
+                            <img class="bouqette" src="images/hort_rose_eust.jpg"> 
+                            <p class="bouqette-name">Альстромерія + Хризантема</p>
+                            <p class="price">1900грн</p>
+                            <button class="to-buy_button"></button>
+                        </div>
+                    </div>
+                    <button id="to-catalog_button"></button>
+             </div>
+             <div class="reviews">
+                <p class="review_heading">Відгуки</p>
+                <div class="review" id="review1">
+                    <div class="client-photo"></div>
+                    <p class="text-review"></p>
+                </div>
+                <div class="review" id="review2">
+                    <div class="client-photo"></div>
+                    <p class="text-review"></p>
+                </div>
+                <div class="review" id="review3">
+                    <div class="client-photo"></div>
+                    <p class="text-review"></p>
+                </div>
+             </div>
         </main>
     </body>
 </html>
